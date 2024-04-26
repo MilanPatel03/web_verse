@@ -1,0 +1,22 @@
+strip_tags
+
+/*
+strip_tags removes all HTML and PHP tags from Input
+and return the same string with only plain text content 
+*/
+
+str_replace
+
+Like, take it as example shown below
+
+// ORIGINAL STRING
+$originalString = "Hello, world! This is a test.";
+
+// USING str_replace TO REPLACE "world" WITH "PHP"
+$newString = str_replace("world", "PHP", $originalString);
+
+// OUTPUT OF NEW STRING
+echo $newString;
+
+// OUTPUT: Hello, PHP! This is a test.
+
